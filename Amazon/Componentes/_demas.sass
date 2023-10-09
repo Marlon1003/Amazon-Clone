@@ -1,0 +1,255 @@
+.navbar
+    height: 60px
+    background-color: $color-principal
+    color: $color-letra 
+    display: flex
+    align-items: center  
+    justify-content: space-evenly
+
+.nav-logo
+    height: 50px
+    width: 100px
+
+.logo
+    background-image: url("amazon-logo.png")
+    background-size: cover
+    height: 30px
+    width: 100px
+    margin-top: 11px
+    margin-left: -30px
+
+.border
+    border: 2px solid transparent 
+
+.direccion-1
+    color: #cccccc
+    font-size: $letra-size_
+    margin-left: -40px
+    font: 12px
+
+.direccion-2
+    font-size: $letra-size
+    margin-left: 0px
+
+.add-icon
+    display: flex
+    align-items: center
+    margin-left: -55px 
+
+.search
+    display: flex
+    background-color: #febd69
+    width: 680px
+    height: 40px
+    border-radius: 4px
+
+.ri-search-line
+    color: black  
+
+.search-select
+    background-color: #f3f3f3
+    width: 70px
+    text-align: center
+    border-top-left-radius: 4px 
+    border-bottom-left-radius: 4px 
+    border: none
+    color: #666666
+
+.search-input
+    width: 100%
+    font-size: 1rem 
+    border: none
+
+.search-icon
+    width: 45px
+    display: flex
+    justify-content: center
+    align-items: center 
+    font-size: 1.3rem 
+    border-top-right-radius: 4px 
+    border-bottom-right-radius: 4px 
+
+.search:hover
+    border: 1px solid orange 
+
+.nav-return img
+    width: 20px
+    height: 100%  
+    background-size: contain
+    display: flex
+
+span
+    font-size: 0.7rem
+
+.nav-second
+    font-size: $letra-size
+    font-weight: 700
+
+.nav-cart
+    font-size: $letra-size
+    font-weight: 700
+
+    i 
+        font-size: 35px
+
+.panel 
+    height: 40px
+    background-color: $color-secundario
+    display: flex
+    color: $color-letra 
+    align-items: center 
+
+.ri-menu-line
+    margin-left: 15px 
+    font-size: 20px
+
+.panel-ops 
+    width: 70%
+    font-size: $letra-size 
+
+    p 
+        display: inline
+        margin-left: 20px 
+
+.panel-all 
+    font-size: $letra-size
+    font-weight: bold
+    margin-bottom: 5px
+
+.hero-section
+    background-image: url('img/banner2.jpg')
+    background-size: cover
+    height: 250px
+
+.shop-section
+    display: flex 
+    flex-wrap: wrap
+    justify-content: space-evenly
+    background-color: #e2e7e6
+
+.box
+    @include  caja_personalizada()
+
+
+.box-img
+    @include box-img()
+    
+
+.box-content
+    margin-left: 1rem
+    margin-right: 1rem
+    p
+        color: #007185
+
+
+.footer-0
+    height: 27px
+    width: 100%
+    background-color: #e2e7e6
+
+.footer-1
+    width: 100%
+    height: 40px
+
+
+.footer-2
+    width: 100%
+    background-color: white
+    color: white
+    border-top: 0.5px solid #dddddd
+    height: 125px
+    color: black 
+    text-align: center 
+     
+    p
+        padding-block: 8px
+        padding-top: 35px
+        font-size: $letra-size_
+
+    h5
+        padding-top: 7px
+        font-size: 0.65rem
+    
+
+button
+    background-color: #ffcb47
+    width: 200px
+    height: 28px
+    border-radius: 5px
+    border-color: #e6a400 
+    font-weight: 700
+    text-align: center 
+
+.footer-3
+    width: 100%
+    background-color: white
+    color: $color-letra
+    border-top: 0.5px solid #dddddd
+    height: 23px
+    display: flex
+
+.footer-ops
+    width: 100%
+    height: 437px
+    background-color: gray
+
+
+
+.foot-panel1
+    background-color: #37475a
+    color: $color-letra 
+    height: 50px
+    display: flex
+    justify-content: center
+    align-items: center
+    font-size: $letra-size
+
+.foot-panel2
+    background-color: $color-secundario
+    color: $color-letra
+    height: 360px
+    display: flex
+    justify-content: space-evenly
+
+ul
+    margin-top: 20px
+
+    p
+        font-weight: bold
+
+    a 
+        display: block
+        font-size: $letra-size
+        margin-top: 10px
+        color: #dddddd
+
+.foot-panel3
+    background-color: $color-secundario
+    color: $color-letra
+    border-top: 0.5px solid #3a4553
+    height: 100px
+    display: flex
+    justify-content: center
+    align-items: center
+
+.logo
+    background-image: url("img/amazon-logo.png")
+
+.foot-panel4
+    background-color: $color-principal
+    color: $color-letra
+    height: 100px
+    
+.pages
+    font-size: 0.7rem
+    text-align: center
+    padding: 35px 0px 5px 
+
+    a 
+        margin: 7px
+        padding: 10px 0px 30px 
+    
+    
+.copyright
+    font-size: $letra-size_
+    text-align: center  
